@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Daily News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1a4dab;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        .breaking h2 {
+            color: red;
+        }
+
+        .highlight h2 {
+            color: green;
+        }
+
+        .weather h2 {
+            color: orange;
+        }
+
+        .read h2 {
+            color: purple;
+        }
+
+        .small-text {
+            font-size: 12px;
+        }
+
+        .big-text {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .strike {
+            text-decoration: line-through;
+        }
+
+        table {
+            width: 100%;
+            background: #ddd;
+            padding: 10px;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📰 My Daily News</h1>
+
+    <div class="container">
+
+        <!-- Breaking News -->
+        <div class="section breaking">
+            <h2>Breaking News</h2>
+            <p>
+                <strong>Technology</strong> is growing rapidly. Students are learning 
+                <u>HTML</u>, <b>CSS</b>, and <i>JavaScript</i>.
+            </p>
+        </div>
+
+        <!-- Today's Highlight -->
+        <div class="section highlight">
+            <h2>Today's Highlight</h2>
+            <p>Water formula is H<sub>2</sub>O and Einstein said E = mc<sup>2</sup>.</p>
+
+            <p class="small-text">Small text</p>
+            <p class="big-text">Big text</p>
+
+            <p><span class="strike">Old news</span> → Updated news!</p>
+        </div>
+
+        <!-- Weather Report -->
+        <div class="section weather">
+            <h2>Weather Report</h2>
+            <table>
+                <tr>
+                    <td><b>City</b></td>
+                    <td><b>Temp</b></td>
+                </tr>
+                <tr>
+                    <td>Bangalore</td>
+                    <td>28°C</td>
+                </tr>
+                <tr>
+                    <td>Delhi</td>
+                    <td>35°C</td>
+                </tr>
+                <tr>
+                    <td>Mumbai</td>
+                    <td>30°C</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Read More -->
+        <div class="section read">
+            <h2>Read More</h2>
+            <p>Visit <a href="https://www.bbc.com" target="_blank">BBC News</a></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
